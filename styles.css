@@ -1,0 +1,76 @@
+body {
+  background-color: #0000ff; /* Blue background color */
+  color: #923b3b; 
+}
+
+.shopping-cart-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #bb3d3d; /* Background color for the content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.total-price {
+  text-align: right;
+  margin-bottom: 20px;
+  color: #0000ff; /* Blue text color */
+  font-weight: bold;
+}
+
+.list-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #030f13; 
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(5, 5, 5, 0.1); /* Shadow for depth */
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1616d6; /* Blue text color */
+}
+
+.unit-price {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.quantity {
+  margin: 0 10px;
+  color: #0000ff; /* Blue text color */
+}
+
+.add-item, .remove-item {
+  cursor: pointer;
+  margin: 0 5px;
+  color: #0000ff; /* Blue text color */
+}
+
+.add-item:hover, .remove-item:hover {
+  color: #007bff; /* Darker blue on hover */
+}
+
+.fa-trash-alt, .fa-heart {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.fa-trash-alt:hover {
+  color: #dc3545; /* Red on hover for delete icon */
+}
+
+.fa-heart {
+  color: #ddd; /* Default heart color */
+}
+
+.fa-heart.liked {
+  color: #ff0066; /* Color when liked */
+}
