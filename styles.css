@@ -1,6 +1,6 @@
 body {
   background-color: #0000ff; /* Blue background color */
-  color: #923b3b; 
+  color: #923b3b;
 }
 
 .shopping-cart-container {
@@ -14,8 +14,10 @@ body {
 
 .total-price {
   text-align: right;
+  padding: 15px 30px;
   margin-bottom: 20px;
-  color: #0000ff; /* Blue text color */
+  font-size: 35px;
+  color: #f2f2f7; /* Blue text color */
   font-weight: bold;
 }
 
@@ -26,7 +28,7 @@ body {
 }
 
 .product-card {
-  background-color: #030f13; 
+  background-color: #030f13;
   padding: 15px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(5, 5, 5, 0.1); /* Shadow for depth */
@@ -48,19 +50,24 @@ body {
   color: #0000ff; /* Blue text color */
 }
 
-.add-item, .remove-item {
+.add-item,
+.remove-item {
   cursor: pointer;
   margin: 0 5px;
   color: #0000ff; /* Blue text color */
 }
 
-.add-item:hover, .remove-item:hover {
+.add-item:hover,
+.remove-item:hover {
   color: #007bff; /* Darker blue on hover */
 }
 
-.fa-trash-alt, .fa-heart {
+.fa-trash-alt,
+.fa-heart {
   cursor: pointer;
+  padding-top: 10px;
   margin-right: 10px;
+  font-size: 30px;
 }
 
 .fa-trash-alt:hover {
@@ -68,9 +75,23 @@ body {
 }
 
 .fa-heart {
+  font-size: 30px;
+  margin-left: 40px;
   color: #ddd; /* Default heart color */
+}
+
+.favorite {
+  color: red;
 }
 
 .fa-heart.liked {
   color: #ff0066; /* Color when liked */
+}
+.fa-minus-circle {
+  color: #f1380f;
+  font-size: 25px;
+}
+.fa-plus-circle {
+  color: #0000ff;
+  font-size: 25px;
 }
